@@ -46,7 +46,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'replacewithyourappservicename'
+          app-name: 'vueforume'
           slot-name: 'Production'
-          publish-profile: $
+          publish-profile: $PRODPROFILE
           package: .
